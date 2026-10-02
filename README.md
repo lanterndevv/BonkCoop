@@ -30,8 +30,9 @@ navigation.
 - **Same map for everyone**: every player sees the same chests, shrines and boss gate, and can use all of them.
 - **Enemies for everyone**: each wave spawns once per player, around each of them. Enemies chase the
   nearest standing player.
-- **No pause**: the game keeps running while someone picks an upgrade or opens a menu. That player cannot
-  be hurt and is not chased while the menu is open. After 30 seconds the first option is picked automatically.
+- **No pause**: the game keeps running while someone picks an upgrade or opens a menu. While you pick an
+  upgrade or open a chest you cannot be hurt and are not chased; after 30 seconds the first option is
+  picked automatically. The pause menu does not protect you.
 - **Down and revive**: at 0 HP you go down instead of dying. A teammate revives you instantly by touching
   the circle around you. Everyone who is down comes back when the team moves to the next stage.
   If the whole team is down, the run ends.

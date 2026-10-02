@@ -1,5 +1,29 @@
 # Changelog
 
+## 0.3.0
+
+Bug-fix release. Everyone needs to update: 0.3.0 cannot play with 0.2.x.
+
+- XP orbs: fixed double XP with the magnet, orbs that paid nothing to whoever picked them up, lost XP
+  with Echo Shard, and a corrupted orb list after many pickups. A downed player now receives the XP
+  the team earned meanwhile when they get back up.
+- Portal: a late key press can no longer skip a stage, the countdown is cancelled on game over, and
+  the team waits for anyone still choosing an upgrade instead of discarding it.
+- Crypt: entering or leaving revives downed players for everyone, and it can no longer be re-entered.
+- Boss door: two presses at once no longer summon two bosses. Final boss: same pylons for everyone.
+- The pause menu no longer makes you invulnerable (upgrade and chest windows still do, and keep you
+  protected for a moment after you close them). Levelling up mid-air keeps your momentum.
+- After one auto-pick timeout, later upgrades are no longer picked for you forever.
+- When the last teammate leaves mid-run the game cleanly continues solo (no frozen host, stale HUD
+  or hanging projectiles), and the next solo run is uploaded to the leaderboards again.
+- Enemies: no more immortal ghost enemies on clients, spawns are shared fairly when the enemy cap is
+  full, elite damage uses the attacker's own stat, and clients get swarm, miniboss and final swarm
+  alerts.
+- Network: a frozen or disconnected player is detected and dropped, a late map list is still
+  applied, and the host ignores out-of-range or stale requests from guests.
+- Guests join with their selected character instead of always Fox.
+- New: an on-screen marker with name and distance points to teammates that are off screen or down.
+
 ## 0.2.1
 
 - Documentation only: issues and feedback now live on GitHub. Same mod file as 0.2.0, so 0.2.0 and
