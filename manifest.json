@@ -1,6 +1,6 @@
 {
   "name": "BonkCoop",
-  "version_number": "0.3.0",
+  "version_number": "0.3.1",
   "website_url": "https://github.com/lanterndevv/BonkCoop",
   "description": "Online co-op for 1-4 players over Steam. Same map for everyone, a wave of enemies per player, shared XP, no pause (you are protected while choosing), instant revive. Beta.",
   "dependencies": [

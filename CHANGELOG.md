@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.1
+
+- Fixed: in 0.3.0 the **Create lobby** button did nothing (and joining failed too). Everyone on 0.3.0
+  must update; 0.3.1 plays with 0.3.1 only.
+
 ## 0.3.0
 
 Bug-fix release. Everyone needs to update: 0.3.0 cannot play with 0.2.x.
